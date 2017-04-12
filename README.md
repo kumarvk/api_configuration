@@ -1,4 +1,4 @@
-# api_configuration
+# Api Configuration
 
 Given a YAML file like below, please generate a sample scripts that dynamically generates classes (extended from MyParentApi).  Each class will have a method named run() which will request the API `url` and then map the data to our internal data.  Based on the response of the API, map the external param to our internal parameter.  We would then call Foo3.run() to parse the URL and store it in our internal table.  I should be able to add Foo4 easily by updating the YAML file.
 
@@ -37,7 +37,7 @@ Given a YAML file like below, please generate a sample scripts that dynamically 
     external_param_rst: internal_param2
 ```
 
-# Setup Project
+# Steps to run the code
 ```
 $ cd api_configuration/
 $ bundle install
