@@ -37,7 +37,7 @@ Given a YAML file like below, please generate a sample scripts that dynamically 
     external_param_rst: internal_param2
 ```
 
-#Setup Project
+# Setup Project
 ```
 $ cd api_configuration/
 $ bundle install
