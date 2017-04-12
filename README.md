@@ -38,11 +38,11 @@ Given a YAML file like below, please generate a sample scripts that dynamically 
 ```
 
 #Setup Project
-
+```
 $ cd api_configuration/
 $ bundle install
 $ rake db:migrate
 $ ruby app_call.rb
-
+```
 
 
